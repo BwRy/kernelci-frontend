@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-          content="kernelci.org - Automated Linux Kernel Testing">
+          content="ci.cip-project.org -- Ultra Long Term Linux Kernel Maintenance">
     <meta name="robots" content="index,follow,nosnippet">
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -69,7 +69,7 @@
                     </li>
                     <li id="li-info">
                         <a id="info-l" href="/info/"
-                            title="Want to know more about kernelci.org?">
+                            title="Want to know more about the Civil Infrastructure Platform?">
                             <i class="fa fa-info"></i>&nbsp;Info
                         </a>
                     </li>
@@ -90,7 +90,7 @@
                 <div class="col-xs-3 col-sm-4 col-md-4 col-lg-4">
                     <ul class="list-unstyled">
                         <li>
-                            <a title="Frequently asked questions" href="/faq/">FAQ</a>
+                            <a title="Upstream KernelCI project" href="http://www.kernelci.org">Upstream KernelCI project</a>
                         </li>
                         <li>
                             <a title="Contact us" href="/contact/">Contact us</a>
@@ -99,26 +99,12 @@
                             <a title="Statistics" href="/stats/">Statistics</a>
                         </li>
                         <li>
-                            <a title="Contributors and sponsors" href="/sponsors/">Contributors &amp; Sponsors</a>
+                            <a title="Civil Infrastructure Platform" href="https://www.cip-project.org">Civil Infrastructure Platform</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-xs-3 col-sm-4 col-md-4 col-lg-4">
                     <ul class="list-unstyled">
-                        <li>
-                            Version:&nbsp;
-                            <span class="rel-tooltip" data-toggle="tooltip" title="Kernel CI Dashboard version">
-                                <a href="https://github.com/kernelci/kernelci-frontend/tree/{{ front_version }}">{{ front_version }}</a>
-                            </span>
-                            &nbsp;|&nbsp;
-                            <span class="rel-tooltip" data-toggle="tooltip" title="Kernel CI API version" id="api-version">
-                            {%- if back_version %}
-                                <a href="https://github.com/kernelci/kernelci-backend/tree/{{ back_version }}">{{ back_version }}</a>
-                            {%- else %}
-                                ?
-                            {%- endif %}
-                            </span>
-                        </li>
                         <li>
                             <a title="API documentation" href="https://api.kernelci.org">
                                 API documentation
